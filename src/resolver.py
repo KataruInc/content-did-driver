@@ -3,7 +3,7 @@ from error import UnsupportedDID, InvalidDID, Internal
 import requests
 
 didMethod = 'content'
-endpoint = 'https://api-dev.kataru.io/kataru.v1.DIDContentPublicService/ResolveDIDDoc'
+endpoint = 'https://api-stg.kataru.io/kataru.v1.DIDContentPublicService/ResolveDIDDoc'
 
 def resolve(did):
   splitDID = did.split(':')
